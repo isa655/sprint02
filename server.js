@@ -71,3 +71,4 @@ res.json(mensagem);
 app.get("/total-mensagens", (req, res) => res.json({ total: mensagens.length}));
 app.listen(porta, "0.0.0.0", () => {
 console.log(`Servidor em http://localhost:${porta}`); });
+
